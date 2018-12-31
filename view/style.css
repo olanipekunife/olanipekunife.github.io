@@ -553,6 +553,8 @@ hr {
 .thumbnail {
 	display: flex;
 	height: 160px;
+	border: 0;
+
 }
 
 @media screen and (max-width: 992px) {
@@ -561,9 +563,9 @@ hr {
 	}
 
 	.thumbnail {
-		width: 50%;
+		width: 70%;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 30px
+		margin-bottom: 30px;
 	}
 }
